@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: pink;
+}
+*:focus{
+    outline: none;
+}
+.slideContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.slide img {
+    width: 50%;
+}
+
+.slide {
+    text-align: center;
+    display: block;
+}
+
+.arrow {
+    cursor: pointer;
+    position: relative;
+    color: pink;
+    top: 45%;
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 8px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    /* Makes it circular */
+}
+
+.prev {
+    position: absolute;
+    left: 200px;
+}
+.next {
+    position: absolute;
+    right: 200px;
+}
+
+/* .text-overlay {
+    position: relative;
+    left: 305px;
+    width: 45%;
+    height: 15px;
+    justify-content: center;
+    padding: 2px;
+    background: rgba(216, 197, 77, 255.7); 
+    color: black;
+    text-align: center;
+    display: none;
+    border: 1px solid black;
+}
+
+.slide:hover .text-overlay {
+    display: block;
+} */
